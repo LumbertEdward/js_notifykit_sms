@@ -1,0 +1,22 @@
+{
+    "name": "js_notifykit_sms",
+    "version": "0.1.0",
+    "description": "Send SMS via multiple providers using a clean, provider-agnostic Javascript interface",
+    "type": "module",
+    "main": "src/index.js",
+    "keywords": [
+        "sms",
+        "notifykit",
+        "notifications",
+        "messaging",
+        "africastalking",
+        "twilio",
+        "communication",
+        "smsleopard"
+    ],
+    "author": "Lumbert Omwaga",
+    "license": "MIT",
+    "dependencies": {
+        "africastalking": "^0.7.8"
+    }
+}
