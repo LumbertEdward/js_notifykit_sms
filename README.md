@@ -100,11 +100,10 @@ await smsProvider.sendBulkSMS(
 SMSLeopard
 
 ```bash
-await smsProvider.sendBulkSMS(
-    ["+254712345678", "+254798765432"],
-    "NotifyKit",
-    "Bulk SMS from NotifyKit"
-);
+await smsProvider.sendBulk([
+    { recipient: "0712345678", message: "Message 1" },
+    { recipient: "+254798765432", message: "Message 2" }
+]);
 ```
 
 ---
